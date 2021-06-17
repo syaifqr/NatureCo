@@ -105,8 +105,7 @@ body {
   
   <div class="form">
     <form class="register-form" method="post">
-      <h1>Sign Up</h1>
-      <br>
+      <h1>Signup</h1>
       <input type="text" name="username" placeholder="name"/>
       <input type="password" name="password" placeholder="password"/>
       <input type="text" name="email" placeholder="email address"/>
@@ -117,7 +116,11 @@ body {
 </div>
 
 <script>
+$('.message a').click(function(){
+   $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+});
 
+$('form').animate({height: "toggle", opacity: "toggle"}, "slow");
 </script>
 <?php $this->view("NatureCo/footer",$data);?>
 

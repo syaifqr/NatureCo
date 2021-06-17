@@ -116,6 +116,9 @@ body {
 </div>
 
 <script>
+//$('.message a').click(function(){
+//   $('form').animate({height: "toggle", opacity: "toggle"}, "slow");
+//});
 </script>
 <?php $this->view("NatureCo/footer",$data);?>
 
